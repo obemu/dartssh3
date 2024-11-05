@@ -1,4 +1,4 @@
-import 'package:dartssh3/src/sftp/sftp_packet_ext.dart';
+import 'sftp_packet_ext.dart';
 
 /// Information about the file system. Corresponds to the `statvfs` system call
 /// on POSIX systems.

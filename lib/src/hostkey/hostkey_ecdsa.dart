@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:convert/convert.dart';
-import 'package:dartssh3/src/ssh_hostkey.dart';
-import 'package:dartssh3/src/ssh_message.dart';
+import '../ssh_hostkey.dart';
+import '../ssh_message.dart';
 import 'package:pointycastle/export.dart';
 
 class SSHEcdsaPublicKey implements SSHHostKey {

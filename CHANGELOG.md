@@ -1,3 +1,6 @@
+## [3.0.1] - 2024-11-05
+- Merged with 104910b1bde52ea304bffaa97d6f2487353c974d from https://github.com/TerminalStudio/dartssh2.git
+
 ## [3.0.0] - 2024-08-13
 
 - Changed version constraints for package `pinenacl` from `^0.5.0` to `">=0.5.0 <1.0.0"` to support Dart SDK `>= 3.5.0`. See Dart SDK [Changelog](https://github.com/dart-lang/sdk/blob/3ccadc5c277a6c70f207d14600524578f4c527ad/CHANGELOG.md?plain=1#L106).
@@ -168,6 +171,11 @@
 
 - Initial release.
 
+[#101]: https://github.com/TerminalStudio/dartssh2/pull/101
+[#100]: https://github.com/TerminalStudio/dartssh2/issues/100
+[#80]: https://github.com/TerminalStudio/dartssh2/issues/80
+[#71]: https://github.com/TerminalStudio/dartssh2/issues/71
+[#50]: https://github.com/TerminalStudio/dartssh2/issues/50
 [#24]: https://github.com/TerminalStudio/dartssh2/issues/24
 [#21]: https://github.com/TerminalStudio/dartssh2/issues/21
 [#18]: https://github.com/TerminalStudio/dartssh2/issues/18

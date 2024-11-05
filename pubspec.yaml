@@ -1,5 +1,5 @@
 name: dartssh3
-version: 3.0.0
+version: 3.0.1
 description: SSH and SFTP client written in pure Dart, aiming to be feature-rich as well as easy to use.
 homepage: https://github.com/obemu/dartssh3
 
@@ -14,10 +14,11 @@ dependencies:
   pinenacl: ">=0.5.0 <1.0.0"
 
 dev_dependencies:
-  build_runner: ^2.1.1
-  dart_code_metrics: ^4.16.0
-  lints: ^2.0.0
-  test: ^1.6.5
+  build_runner: ^2.4.12
+  dart_code_metrics_presets: ^2.15.0
+  lints: ">=4.0.0 <6.0.0"
+  test: ^1.25.8
 
+  ansi_colorizer: any
 false_secrets:
   - test

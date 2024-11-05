@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:dartssh3/src/ssh_channel.dart';
-import 'package:dartssh3/src/ssh_signal.dart';
-import 'package:dartssh3/src/message/msg_channel.dart';
+import 'ssh_channel.dart';
+import 'ssh_signal.dart';
+import 'message/msg_channel.dart';
 
 /// A [SSHSession] represents a remote execution of a program.
 class SSHSession {

@@ -3,19 +3,19 @@ import 'dart:math';
 import 'dart:typed_data';
 
 import 'package:convert/convert.dart';
-import 'package:dartssh3/src/sftp/sftp_errors.dart';
-import 'package:dartssh3/src/sftp/sftp_file_attrs.dart';
-import 'package:dartssh3/src/sftp/sftp_file_open_mode.dart';
-import 'package:dartssh3/src/sftp/sftp_name.dart';
-import 'package:dartssh3/src/sftp/sftp_packet.dart';
-import 'package:dartssh3/src/sftp/sftp_packet_ext.dart';
-import 'package:dartssh3/src/sftp/sftp_request_id.dart';
-import 'package:dartssh3/src/sftp/sftp_statvfs.dart';
-import 'package:dartssh3/src/sftp/sftp_stream_io.dart';
-import 'package:dartssh3/src/ssh_channel.dart';
-import 'package:dartssh3/src/ssh_transport.dart';
-import 'package:dartssh3/src/utils/chunk_buffer.dart';
-import 'package:dartssh3/src/ssh_message.dart';
+import 'sftp_errors.dart';
+import 'sftp_file_attrs.dart';
+import 'sftp_file_open_mode.dart';
+import 'sftp_name.dart';
+import 'sftp_packet.dart';
+import 'sftp_packet_ext.dart';
+import 'sftp_request_id.dart';
+import 'sftp_statvfs.dart';
+import 'sftp_stream_io.dart';
+import '../ssh_channel.dart';
+import '../ssh_transport.dart';
+import '../utils/chunk_buffer.dart';
+import '../ssh_message.dart';
 
 const _kVersion = 3;
 
