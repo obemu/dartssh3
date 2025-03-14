@@ -1,31 +1,27 @@
 <!-- Title-->
-<h1 style="text-align: center;">DartSSH 2</h1>
+<h1 style="text-align: center;">DartSSH 3</h1>
 
 <!-- Badges-->
 <p style="text-align: center;">
-  <a href="https://pub.dartlang.org/packages/dartssh2">
-    <img src="https://img.shields.io/pub/v/dartssh2.svg" alt="">
+  <a href="https://pub.dartlang.org/packages/dartssh3">
+    <img src="https://img.shields.io/pub/v/dartssh3.svg" alt="">
   </a>
-  <a href="https://pub.dev/packages/dartssh2">
-    <img src="https://img.shields.io/pub/popularity/dartssh2?logo=dart" alt="">
+  <a href="https://pub.dev/packages/dartssh3">
+    <img src="https://img.shields.io/pub/popularity/dartssh3?logo=dart" alt="">
   </a>
-  <a href="https://www.dartdocs.org/documentation/dartssh2/latest/">
-    <img src="https://img.shields.io/badge/Docs-dartssh2-blue.svg" alt="">
+  <a href="https://www.dartdocs.org/documentation/dartssh3/latest/">
+    <img src="https://img.shields.io/badge/Docs-dartssh3-blue.svg" alt="">
   </a>
-  <a href="https://github.com/TerminalStudio/dartssh2/actions/workflows/dart.yml">
-    <img src="https://github.com/TerminalStudio/dartssh2/actions/workflows/dart.yml/badge.svg" alt="">
-  </a>
-
-  <a href="https://ko-fi.com/F1F61K6BL">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-F16061?style=flat&logo=buy-me-a-coffee&logoColor=white&labelColor=555555" alt="">
-  </a>
+  <!--<a href="https://github.com/TerminalStudio/dartssh2/actions/workflows/dart.yml">-->
+    <!--<img src="https://github.com/TerminalStudio/dartssh2/actions/workflows/dart.yml/badge.svg" alt="">-->
+  <!--</a>-->
 </p>
 
 <p style="text-align: center;">
 SSH and SFTP client written in pure Dart, aiming to be feature-rich as well as easy to use.
 </p>
 
-> **dartssh2** is now a complete rewrite of [dartssh].
+> **dartssh3** is a fork of [dartssh2](https://pub.dev/packages/dartssh2), because the original author stopped development.
 
 ## ✨ Features
 
@@ -56,8 +52,8 @@ SSH and SFTP client written in pure Dart, aiming to be feature-rich as well as e
   <tr> 
     <!-- ServerBox -->
     <td>
-      <img src="https://raw.githubusercontent.com/TerminalStudio/dartssh2/master/media/showcase-1-serverbox.1.jpg" width="150px" alt="ServerBox interface displaying connection management options">
-      <img src="https://raw.githubusercontent.com/TerminalStudio/dartssh2/master/media/showcase-1-serverbox.2.png" width="150px" alt="ServerBox user interface for server control and monitoring">
+      <img src="https://raw.githubusercontent.com/obemu/dartssh3/master/media/showcase-1-serverbox.1.jpg" width="150px" alt="ServerBox interface displaying connection management options">
+      <img src="https://raw.githubusercontent.com/obemu/dartssh3/master/media/showcase-1-serverbox.2.png" width="150px" alt="ServerBox user interface for server control and monitoring">
     </td>
     <!-- Ssh! No Ports -->
     <td>
@@ -353,20 +349,20 @@ print('free: ${statvfs.blockSize * statvfs.freeBlocks}');
 
 ### SSH client:
 
-- [example/example.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/example.dart)
-- [example/execute.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/execute.dart)
-- [example/forward_local.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/forward_local.dart)
-- [example/forward_remote.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/forward_remote.dart)
-- [example/pubkey.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/pubkey.dart)
-- [example/shell.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/shell.dart)
-- [example/ssh_jump.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/ssh_jump.dart)
+- [example/example.dart](https://github.com/obemu/dartssh3/blob/master/example/example.dart)
+- [example/execute.dart](https://github.com/obemu/dartssh3/blob/master/example/execute.dart)
+- [example/forward_local.dart](https://github.com/obemu/dartssh3/blob/master/example/forward_local.dart)
+- [example/forward_remote.dart](https://github.com/obemu/dartssh3/blob/master/example/forward_remote.dart)
+- [example/pubkey.dart](https://github.com/obemu/dartssh3/blob/master/example/pubkey.dart)
+- [example/shell.dart](https://github.com/obemu/dartssh3/blob/master/example/shell.dart)
+- [example/ssh_jump.dart](https://github.com/obemu/dartssh3/blob/master/example/ssh_jump.dart)
 
 ### SFTP:
-- [example/sftp_read.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/sftp_read.dart)
-- [example/sftp_list.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/sftp_list.dart)
-- [example/sftp_stat.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/sftp_stat.dart)
-- [example/sftp_upload.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/sftp_upload.dart)
-- [example/sftp_filetype.dart](https://github.com/TerminalStudio/dartssh2/blob/master/example/sftp_filetype.dart)
+- [example/sftp_read.dart](https://github.com/obemu/dartssh3/blob/master/example/sftp_read.dart)
+- [example/sftp_list.dart](https://github.com/obemu/dartssh3/blob/master/example/sftp_list.dart)
+- [example/sftp_stat.dart](https://github.com/obemu/dartssh3/blob/master/example/sftp_stat.dart)
+- [example/sftp_upload.dart](https://github.com/obemu/dartssh3/blob/master/example/sftp_upload.dart)
+- [example/sftp_filetype.dart](https://github.com/obemu/dartssh3/blob/master/example/sftp_filetype.dart)
 
 
 
@@ -435,8 +431,10 @@ print('free: ${statvfs.blockSize * statvfs.freeBlocks}');
 
 - [https://github.com/GreenAppers/dartssh](https://github.com/GreenAppers/dartssh) by GreenAppers.
 
+- [https://github.com/TerminalStudio/dartssh2](https://github.com/TerminalStudio/dartssh2) by TerminalStudio
+
 ## License
 
-dartssh is released under the terms of the MIT license. See [LICENSE](LICENSE).
+[dartssh](https://github.com/GreenAppers/dartssh) is released under the terms of the MIT license. See [LICENSE](https://github.com/GreenAppers/dartssh/blob/d209ba2015937f0605d5eb254dc16baebbdab30f/LICENSE).
 
-[dartssh]: https://github.com/GreenAppers/dartssh
+[dartssh2](https://github.com/TerminalStudio/dartssh2) is released under the terms of the MIT license. See [LICENSE](https://github.com/TerminalStudio/dartssh2/blob/9e7d3eafb02de28e080be92a5db1761d8251aa66/LICENSE).
