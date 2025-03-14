@@ -9,6 +9,7 @@ export 'src/ssh_signal.dart';
 export 'src/ssh_transport.dart';
 
 export 'src/socket/ssh_socket.dart';
+export 'src/socket/isolated_ssh_socket.dart';
 
 export 'src/algorithm/ssh_cipher_type.dart';
 export 'src/algorithm/ssh_hostkey_type.dart';
