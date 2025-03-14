@@ -1,4 +1,4 @@
-import 'package:dartssh2/dartssh2.dart';
+import 'package:dartssh3/dartssh3.dart';
 
 class MockSSHHttpHeaders extends SSHHttpHeaders {
   final Map<String, List<String>> _headers = {};

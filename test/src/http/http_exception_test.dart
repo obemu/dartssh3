@@ -1,4 +1,4 @@
-import 'package:dartssh2/src/http/http_exception.dart';
+import 'package:dartssh3/src/http/http_exception.dart';
 import 'package:test/test.dart';
 
 void main() {

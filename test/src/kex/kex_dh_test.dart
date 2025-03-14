@@ -1,7 +1,7 @@
 import 'dart:typed_data';
 
-import 'package:dartssh2/src/kex/kex_dh.dart';
-import 'package:dartssh2/src/utils/bigint.dart';
+import 'package:dartssh3/src/kex/kex_dh.dart';
+import 'package:dartssh3/src/utils/bigint.dart';
 import 'package:test/test.dart';
 
 void main() {
