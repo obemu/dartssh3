@@ -1,3 +1,16 @@
+## [3.0.2] - 2025-03-14
+
+- Rebased with tag `2.12.0` (commit b27d1a0e63012235c36473e341537c2cfb066d6b) from https://github.com/TerminalStudio/dartssh2.git
+
+## [3.0.1] - 2024-11-05
+- Merged with 104910b1bde52ea304bffaa97d6f2487353c974d from https://github.com/TerminalStudio/dartssh2.git
+
+## [3.0.0] - 2024-08-13
+
+- Changed version constraints for package `pinenacl` from `^0.5.0` to `">=0.5.0 <1.0.0"` to support Dart SDK `>= 3.5.0`. See Dart SDK [Changelog](https://github.com/dart-lang/sdk/blob/3ccadc5c277a6c70f207d14600524578f4c527ad/CHANGELOG.md?plain=1#L106).
+
+- Bumped SDK constraints from `">=2.17.0 <3.0.0"` up to `">=2.17.0 <4.0.0"`
+
 ## [2.12.0] - 2025-02-08
 - Fixed streams and channel not closing after receiving SSH_Message_Channel_Close [#116]. [@cbenhagen].
 - Fixed lint issues.
