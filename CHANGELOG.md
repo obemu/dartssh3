@@ -1,3 +1,7 @@
+## [3.0.3] - 2025-06-24
+
+- Rebased with commit `df127d7b937d9a2b040c6bae3f1fc5bc0bba1722` from https://github.com/TerminalStudio/dartssh2.git
+
 ## [3.0.2] - 2025-03-14
 
 - Rebased with tag `2.12.0` (commit b27d1a0e63012235c36473e341537c2cfb066d6b) from https://github.com/TerminalStudio/dartssh2.git
